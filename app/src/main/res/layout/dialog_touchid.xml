@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Sử dụng vân tay của bạn để đăng nhập" />
+
+        <ImageView
+            android:id="@+id/img_touchid"
+            android:layout_width="114dp"
+            android:layout_height="84dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp"
+            app:srcCompat="@mipmap/ic_touchid" />
+
+        <TextView
+            android:id="@+id/tv_xacthuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:text="xác thực vân tay" />
+
+        <CheckBox
+            android:id="@+id/chk_touchid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="201dp"
+            android:text="Tôi cảm ơn và làm ơn đừng hiển thị nữa" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

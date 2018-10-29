@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="THÊM HÓA ĐƠN"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/ed_mahoadon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mã Hóa Đơn"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_ngaymua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ngày Mua Hàng"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Chon Ngay" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM HÓA ĐƠN"
+        android:textColor="#fff"
+        android:background="@drawable/ic_background_button"/>
+</LinearLayout>

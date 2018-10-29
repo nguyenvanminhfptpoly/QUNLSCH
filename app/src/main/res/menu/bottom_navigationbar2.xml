@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Hóa Đơn"
+        android:icon="@drawable/ic_local_atm_black_24dp"
+        android:id="@+id/it_hd"/>
+    <item android:title="Doanh Số"
+        android:icon="@drawable/ic_playlist_add_check_black_24dp"
+        android:id="@+id/it_ds"/>
+    <item android:title="Sách bán chạy"
+        android:icon="@drawable/ic_collections_bookmark_black_24dp"
+        android:id="@+id/it_sbc"/>
+</menu>
